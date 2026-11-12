@@ -6,7 +6,7 @@ Community support website for older adults and families in Weihai. React, Vite a
 
 https://lichang1125.github.io/elder-care-foundation/
 
-Hosted on GitHub Pages using a public repository and the free github.io address. Visitors do not need to sign in. No paid hosting plan, payment method, or purchased domain is required. GitHub platform usage limits apply.
+Course Work
 
 ## Develop locally
 
@@ -24,7 +24,7 @@ npm test
 npm run build:pages
 ```
 
-The Pages build is in dist-pages. All eight routes have their own index.html so shared links and refreshes work. The workflow publishes pushes to main; repository Settings → Pages → Source must be GitHub Actions.
+
 
 ## Data and interaction
 
