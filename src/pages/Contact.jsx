@@ -1,0 +1,8 @@
+import {faqs} from '../content.js';
+import ContactDraft from '../components/ContactDraft.jsx';
+import {PageIntro} from './Shared.jsx';
+export default function Contact(){const candidate=new URLSearchParams(window.location.search).get('topic');const allowed=['General enquiry','Finding support','Volunteering','Attending an event','Donor gifts','Community partnership'];const topic=allowed.includes(candidate)?candidate:'General enquiry';return <>
+ <PageIntro title={<>A good place<br/>to start.</>} description="For older adults, families and people who want to lend a hand. Tell us what would make everyday life a little easier."/>
+ <section className="section contact-page"><div className="container two-column"><div><h2>Here in Weihai.</h2><p>Our community focus is Weihai, Shandong, with everyday support centred on older residents and their families.</p><dl className="contact-facts"><dt>Community focus</dt><dd>Huancui District · Weihai<br/>Shandong, China</dd><dt>What to include</dt><dd>The kind of help or involvement you have in mind, and any practical questions.</dd><dt>What happens here</dt><dd>You can prepare and download an enquiry. It stays on your device until you choose to share it.</dd></dl><p className="small">Please keep medical records, identity documents and payment details out of your enquiry.</p></div><div className="contact-panel"><h2>Let’s talk.</h2><ContactDraft topic={topic}/></div></div></section>
+ <section className="section"><div className="container giving-faq"><h2>Questions, answered.</h2><div className="faq">{faqs.map(([q,a])=><details key={q}><summary>{q}<span className="plus" aria-hidden="true"/></summary><p>{a}</p></details>)}</div></div></section>
+ </>;}

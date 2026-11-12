@@ -1,0 +1,10 @@
+import {siteUrl} from "../site.js";
+import {useState} from 'react';
+import {news} from '../news.js';
+import {PageIntro,Arrow,Invite} from './Shared.jsx';
+export default function NewsPage({onNews}){const [category,setCategory]=useState('All stories');return <>
+ <PageIntro title={<>Good things happen,<br/>together.</>} description="Community notes, reflections on everyday support and ideas for a more connected Weihai."/>
+ <section className="section news news-page"><div className="container"><div className="event-tabs" role="group" aria-label="News category">{['All stories',...new Set(news.map(n=>n.category))].map(c=><button key={c} aria-pressed={category===c} onClick={()=>setCategory(c)}>{c}</button>)}</div><div className="article-grid">{news.filter(n=>category==='All stories'||n.category===category).map(n=><article key={n.id}><button className="image-button" onClick={()=>onNews(n)} aria-label={`Read ${n.title}`}><img src={siteUrl(`/images/${n.image}`)} alt={n.title} width="600" height="400"/></button><p className="news-meta">{n.category} · <time dateTime={n.date}>{new Date(n.date+'T12:00:00').toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'})}</time></p><h2>{n.title}</h2><p>{n.summary}</p><button className="text-link" onClick={()=>onNews(n)}>Read the story <Arrow/></button></article>)}</div></div></section>
+ <section className="section reading-note"><div className="container two-column"><h2>Small moments worth<br/>paying attention to.</h2><div><p>Our community notes explore what good support can look like: a patient conversation, a less stressful journey or a familiar face around the table.</p><p>They are written around Elder Care’s service approach. Personal accounts are published only with the contributor’s permission.</p><a className="text-link" href={siteUrl("/our-work")}>Discover our approach <Arrow/></a></div></div></section>
+ <Invite title="Be part of the next gathering." href={siteUrl("/events")} label="See upcoming activities"/>
+ </>;}

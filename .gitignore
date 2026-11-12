@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.env
+*.log
+data/cache-*.json
+**/registrations*.json
+
+dist-pages/
+.env.*
+!.env.example
+docs/
+sql/
+server-output.log
+server-error.log

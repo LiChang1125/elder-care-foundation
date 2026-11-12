@@ -1,0 +1,61 @@
+{
+  "events": [
+    {
+      "event_id": 1022,
+      "event_name": "Benefits Counseling Workshop",
+      "event_date": "2026-11-12",
+      "city": "Syracuse",
+      "country": "USA"
+    },
+    {
+      "event_id": 1046,
+      "event_name": "Caregiver Support Fair",
+      "event_date": "2026-11-12",
+      "city": "Syracuse",
+      "country": "USA"
+    },
+    {
+      "event_id": 1034,
+      "event_name": "Healthy Aging Seminar",
+      "event_date": "2026-11-24",
+      "city": "Syracuse",
+      "country": "USA"
+    },
+    {
+      "event_id": 1058,
+      "event_name": "Mobility Meetup",
+      "event_date": "2026-11-24",
+      "city": "Syracuse",
+      "country": "USA"
+    },
+    {
+      "event_id": 1035,
+      "event_name": "Memory Care Seminar",
+      "event_date": "2026-12-01",
+      "city": "Rochester",
+      "country": "USA"
+    },
+    {
+      "event_id": 1059,
+      "event_name": "Social Connection Meetup",
+      "event_date": "2026-12-01",
+      "city": "Rochester",
+      "country": "USA"
+    },
+    {
+      "event_id": 1023,
+      "event_name": "Community Wellness Workshop",
+      "event_date": "2026-12-13",
+      "city": "Rochester",
+      "country": "USA"
+    },
+    {
+      "event_id": 1047,
+      "event_name": "Nutrition Fair",
+      "event_date": "2026-12-13",
+      "city": "Rochester",
+      "country": "USA"
+    }
+  ],
+  "as_of": "2026-11-11T14:21:03Z"
+}
