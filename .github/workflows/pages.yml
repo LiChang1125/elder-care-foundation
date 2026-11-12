@@ -1,4 +1,4 @@
-name: Publish free website
+name: Publish Elder Care website
 on:
   push:
     branches: [main]
