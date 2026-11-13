@@ -73,10 +73,10 @@ The website expresses three principles that guide the foundation’s approach:
 
 | Page | What visitors can discover |
 | :--- | :--- |
-| [Home](https://lichang1125.github.io/elder-care-foundation/) | The foundation’s identity, service introductions and a rotating collection of care journeys. |
+| [Home](https://lichang1125.github.io/elder-care-foundation/) | The foundation’s identity, four community-record figures, service introductions, Maui and ChaoFeng gifts and a rotating collection of care journeys. |
 | [About](https://lichang1125.github.io/elder-care-foundation/about/) | Mission, vision, principles, Weihai’s ageing context and prospective community connections. |
 | [Our work](https://lichang1125.github.io/elder-care-foundation/our-work/) | Detailed service pathways, the support available and how to take the next step. |
-| [Impact](https://lichang1125.github.io/elder-care-foundation/impact/) | Annual ambitions, dated organizational records and an interactive volunteer-hours calculator. |
+| [Impact](https://lichang1125.github.io/elder-care-foundation/impact/) | Annual ambitions, an interactive volunteer-hours calculator and a link to the homepage’s dated organizational records. |
 | [Events](https://lichang1125.github.io/elder-care-foundation/events/) | Upcoming activities, location and month filters, keyword search, event details and registration of interest. |
 | [News](https://lichang1125.github.io/elder-care-foundation/news/) | Community notes, service perspectives and articles organized by theme. |
 | [Get involved](https://lichang1125.github.io/elder-care-foundation/get-involved/) | Ways to give time, bring a team, plan a contribution and discover donor gifts. |
@@ -95,7 +95,7 @@ The website expresses three principles that guide the foundation’s approach:
 
 ## Stories that keep kindness going
 
-The **Maui and ChaoFeng** storybook and video collection are presented as thank-you gifts for supporters. Their artwork gives the participation page a distinctive visual focus and introduces a shared story across both formats.
+The **Maui and ChaoFeng** storybook and video collection are presented as thank-you gifts for supporters. Their artwork gives the homepage a distinctive visual focus and introduces a shared story across both formats.
 
 <table>
 <tr>

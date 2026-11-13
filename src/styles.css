@@ -60,3 +60,8 @@ footer .brand-logo{width:285px;height:190px;border-radius:0}
 
 footer .brand-logo{filter:brightness(0) invert(1)}
 @media(min-width:801px) and (max-width:1000px){.site-header .brand-logo{width:195px;height:130px}.site-header>.brand-link{margin-right:12px}.site-header{padding-left:24px;height:138px}}
+
+/* Homepage priorities and links from supporting pages. */
+#community-records,#donor-gifts{scroll-margin-top:24px}
+.record-link{padding-top:32px;padding-bottom:48px}
+.record-link .text-link{white-space:normal}
